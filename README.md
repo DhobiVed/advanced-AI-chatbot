@@ -1,145 +1,117 @@
 # Advanced AI Chatbot Suite
 
-A comprehensive Streamlit application featuring multiple AI-powered chatbots for various use cases including search, document analysis, and Q&A functionality.
-
-## 🌟 Features
-
-### 1. **Search Chatbot (Page 1)**
-- Real-time AI-powered search functionality
-- Multiple model selection (Llama 3.1, Mixtral)
-- Conversation history with easy access
-- Clean, user-friendly interface
-
-### 2. **PDF Q&A Chatbot (Page 2)**
-- PDF document upload and text extraction
-- Advanced Q&A with semantic search
-- Document summarization
-- FAISS-based vector search for accurate answers
-- Multiple summary types (Quick, Detailed, Chapter-wise)
-
-### 3. **Advanced UI Components**
-- Beautiful gradient headers and modern design
-- Interactive sidebar navigation
-- Real-time processing indicators
-- Responsive layout for all screen sizes
-
 ## 📸 Application Screenshots
 
 ### Home Interface
-![PDF Q&A Chatbot Screenshot](Screenshot%202025-07-20%20165018%20-%20Copy%20-%20Copy.png)
-
-# Advanced AI Chatbot Suite
-
-A comprehensive Streamlit application featuring multiple AI-powered chatbots for various use cases including search, document analysis, and Q&A functionality.
-
-## 🌟 Features
-
-### 1. **Search Chatbot (Page 1)**
-- Real-time AI-powered search functionality
-- Multiple model selection (Llama 3.1, Mixtral)
-- Conversation history with easy access
-- Clean, user-friendly interface
-
-### 2. **PDF Q&A Chatbot (Page 2)**
-- PDF document upload and text extraction
-- Advanced Q&A with semantic search
-- Document summarization
-- FAISS-based vector search for accurate answers
-- Multiple summary types (Quick, Detailed, Chapter-wise)
-
-## 📸 Application Screenshots
-
-### Home Interface
-![Home Page](./screenshots/Screenshot_2025-07-20_165126.png)
+![Home Page](Screenshot%202025-07-20%20165126.png)
 *Main dashboard with chatbot selection*
 
-### Search Chatbot Interface
-![Search Interface](./screenshots/Screenshot_2025-07-20_165411.png)
+### Search Chatbot Interface  
+![Search Interface](Screenshot%202025-07-20%20165411.png)
 *Search chatbot with model selection options*
 
-![Search Query](./screenshots/Screenshot_2025-07-20_165505.png)
+![Search Query](Screenshot%202025-07-20%20165505.png)
 *Example search query and AI response*
 
-![History Sidebar](./screenshots/Screenshot_2025-07-20_165612.png)
+![History Sidebar](Screenshot%202025-07-20%20165612.png)
 *Conversation history panel*
 
 ### PDF Chatbot Interface
-![PDF Upload](./screenshots/Screenshot_2025-07-20_165648.png)
+![PDF Upload](Screenshot%202025-07-20%20165648.png)
 *PDF document upload interface*
 
-![Document Processing](./screenshots/Screenshot_2025-07-20_165843.png)
+![Document Processing](Screenshot%202025-07-20%20165843.png)
 *PDF text extraction in progress*
 
-![Processed PDF](./screenshots/Screenshot_2025-07-20_170114.png)
+![Processed PDF](Screenshot%202025-07-20%20170114.png)
 *Successfully processed PDF with statistics*
 
-![Q&A Section](./screenshots/Screenshot_2025-07-20_170140.png)
+![Q&A Section](Screenshot%202025-07-20%20170140.png)
 *Question answering interface for PDF content*
 
-![Answer Display](./screenshots/Screenshot_2025-07-20_170236.png)
+![Answer Display](Screenshot%202025-07-20%20170236.png)
 *Detailed answer with confidence score*
 
-![Summary Generation](./screenshots/Screenshot_2025-07-20_170504.png)
+![Summary Generation](Screenshot%202025-07-20%20170504.png)
 *Document summarization options*
 
-![Generated Summary](./screenshots/Screenshot_2025-07-20_170525.png)
+![Generated Summary](Screenshot%202025-07-20%20170525.png)
 *AI-generated document summary*
 
 ### Advanced Features
-![Document Statistics](./screenshots/Screenshot_2025-07-20_170831.png)
+![Document Statistics](Screenshot%202025-07-20%20170831%20-%20Copy.png)
 *Detailed document analytics and metrics*
 
-![Search Results](./screenshots/Screenshot_2025-07-20_170857.png)
+![Search Results](Screenshot%202025-07-20%20170857.png)
 *Semantic search results from PDF content*
 
-![Context View](./screenshots/Screenshot_2025-07-20_170938.png)
+![Context View](Screenshot%202025-07-20%20170938.png)
 *Relevant context extraction from document*
 
-![Alternative Answers](./screenshots/Screenshot_2025-07-20_170957.png)
+![Alternative Answers](Screenshot%202025-07-20%20170957.png)
 *Multiple answer suggestions with scores*
 
 ### UI Details
-![Model Settings](./screenshots/Screenshot_2025-07-20_171024.png)
+![Model Settings](Screenshot%202025-07-20%20171024.png)
 *Advanced model configuration options*
 
-![Processing Status](./screenshots/Screenshot_2025-07-20_171116.png)
+![Processing Status](Screenshot%202025-07-20%20171116.png)
 *Real-time processing indicators*
 
-![Error Handling](./screenshots/Screenshot_2025-07-20_171147.png)
+![Error Handling](Screenshot%202025-07-20%20171147.png)
 *Error messages and recovery options*
 
-![Response Formatting](./screenshots/Screenshot_2025-07-20_171223.png)
+![Response Formatting](Screenshot%202025-07-20%20171223.png)
 *Beautifully formatted AI responses*
 
-![Navigation](./screenshots/Screenshot_2025-07-20_171404.png)
+![Navigation](Screenshot%202025-07-20%20171404.png)
 *Sidebar navigation and settings*
 
-![Final Results](./screenshots/Screenshot_2025-07-20_171432.png)
+![Final Results](Screenshot%202025-07-20%20171432.png)
 *Completed analysis with export options*
 
-## 🚀 Quick Start
+## 🚀 Quick Setup
 
-### Prerequisites
-- Python 3.8 or higher
-- Groq API key (for AI models)
+### Step 1: Rename your screenshots
+Run this Python script to rename all screenshots:
 
-### Installation
+```python
+import os
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/ai-chatbot-suite.git
-cd ai-chatbot-suite
+# Create screenshots folder if it doesn't exist
+os.makedirs('screenshots', exist_ok=True)
 
-## 🚀 Quick Start
+# List of all your screenshot files (replace with your actual filenames)
+screenshots = [
+    "Screenshot 2025-07-20 165126.png",
+    "Screenshot 2025-07-20 165411.png", 
+    "Screenshot 2025-07-20 165505.png",
+    "Screenshot 2025-07-20 165612.png",
+    "Screenshot 2025-07-20 165648.png",
+    "Screenshot 2025-07-20 165843.png",
+    "Screenshot 2025-07-20 170114.png",
+    "Screenshot 2025-07-20 170140.png",
+    "Screenshot 2025-07-20 170236.png",
+    "Screenshot 2025-07-20 170504.png",
+    "Screenshot 2025-07-20 170525.png",
+    "Screenshot 2025-07-20 170831 - Copy.png",
+    "Screenshot 2025-07-20 170857.png",
+    "Screenshot 2025-07-20 170938.png",
+    "Screenshot 2025-07-20 170957.png",
+    "Screenshot 2025-07-20 171024.png",
+    "Screenshot 2025-07-20 171116.png",
+    "Screenshot 2025-07-20 171147.png",
+    "Screenshot 2025-07-20 171223.png",
+    "Screenshot 2025-07-20 171404.png",
+    "Screenshot 2025-07-20 171432.png"
+]
 
-### Prerequisites
-- Python 3.8 or higher
-- Groq API key (for AI models)
-- Required Python packages
-
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone <your-repository-url>
-cd ai-chatbot-suite
+# Move and rename files (if they exist)
+for old_name in screenshots:
+    if os.path.exists(old_name):
+        # Replace spaces with %20 for URLs
+        new_name = old_name.replace(" ", "%20")
+        os.rename(old_name, f"screenshots/{old_name}")
+        print(f"Moved: {old_name}")
+    else:
+        print(f"Not found: {old_name}")
