@@ -28,84 +28,107 @@ A comprehensive Streamlit application featuring multiple AI-powered chatbots for
 ### Home Interface
 ![PDF Q&A Chatbot Screenshot](Screenshot%202025-07-20%20165018%20-%20Copy%20-%20Copy.png)
 
-Features
-1. Main Dashboard
+# Advanced AI Chatbot Suite
 
+A comprehensive Streamlit application featuring multiple AI-powered chatbots for various use cases including search, document analysis, and Q&A functionality.
 
-Select and navigate between different chatbot modules.
+## 🌟 Features
 
-2. Search Chatbot Interface
+### 1. **Search Chatbot (Page 1)**
+- Real-time AI-powered search functionality
+- Multiple model selection (Llama 3.1, Mixtral)
+- Conversation history with easy access
+- Clean, user-friendly interface
 
-Search & Model Selection
+### 2. **PDF Q&A Chatbot (Page 2)**
+- PDF document upload and text extraction
+- Advanced Q&A with semantic search
+- Document summarization
+- FAISS-based vector search for accurate answers
+- Multiple summary types (Quick, Detailed, Chapter-wise)
 
+## 📸 Application Screenshots
 
-Search queries with AI model selection.
+### Home Interface
+![Home Page](./screenshots/Screenshot_2025-07-20_165126.png)
+*Main dashboard with chatbot selection*
 
-Example Query & Response
+### Search Chatbot Interface
+![Search Interface](./screenshots/Screenshot_2025-07-20_165411.png)
+*Search chatbot with model selection options*
 
+![Search Query](./screenshots/Screenshot_2025-07-20_165505.png)
+*Example search query and AI response*
 
-AI-generated response for user queries.
+![History Sidebar](./screenshots/Screenshot_2025-07-20_165612.png)
+*Conversation history panel*
 
-Conversation History
+### PDF Chatbot Interface
+![PDF Upload](./screenshots/Screenshot_2025-07-20_165648.png)
+*PDF document upload interface*
 
+![Document Processing](./screenshots/Screenshot_2025-07-20_165843.png)
+*PDF text extraction in progress*
 
-Track previous conversations for reference.
+![Processed PDF](./screenshots/Screenshot_2025-07-20_170114.png)
+*Successfully processed PDF with statistics*
 
-3. PDF Chatbot Interface
+![Q&A Section](./screenshots/Screenshot_2025-07-20_170140.png)
+*Question answering interface for PDF content*
 
-Upload PDF
+![Answer Display](./screenshots/Screenshot_2025-07-20_170236.png)
+*Detailed answer with confidence score*
 
+![Summary Generation](./screenshots/Screenshot_2025-07-20_170504.png)
+*Document summarization options*
 
-Document Processing
+![Generated Summary](./screenshots/Screenshot_2025-07-20_170525.png)
+*AI-generated document summary*
 
+### Advanced Features
+![Document Statistics](./screenshots/Screenshot_2025-07-20_170831.png)
+*Detailed document analytics and metrics*
 
-Processed PDF Overview
+![Search Results](./screenshots/Screenshot_2025-07-20_170857.png)
+*Semantic search results from PDF content*
 
+![Context View](./screenshots/Screenshot_2025-07-20_170938.png)
+*Relevant context extraction from document*
 
-Question & Answer Interface
+![Alternative Answers](./screenshots/Screenshot_2025-07-20_170957.png)
+*Multiple answer suggestions with scores*
 
+### UI Details
+![Model Settings](./screenshots/Screenshot_2025-07-20_171024.png)
+*Advanced model configuration options*
 
-Answer Display with Confidence
+![Processing Status](./screenshots/Screenshot_2025-07-20_171116.png)
+*Real-time processing indicators*
 
+![Error Handling](./screenshots/Screenshot_2025-07-20_171147.png)
+*Error messages and recovery options*
 
-Document Summarization
+![Response Formatting](./screenshots/Screenshot_2025-07-20_171223.png)
+*Beautifully formatted AI responses*
 
+![Navigation](./screenshots/Screenshot_2025-07-20_171404.png)
+*Sidebar navigation and settings*
 
+![Final Results](./screenshots/Screenshot_2025-07-20_171432.png)
+*Completed analysis with export options*
 
+## 🚀 Quick Start
 
-4. Advanced Features
+### Prerequisites
+- Python 3.8 or higher
+- Groq API key (for AI models)
 
-Document Analytics & Statistics
+### Installation
 
-
-Semantic Search Results
-
-
-Context Extraction
-
-
-Multiple Answer Suggestions
-
-
-5. UI & Settings
-
-Model Configuration Options
-
-
-Real-Time Processing Status
-
-
-Error Handling & Recovery
-
-
-Formatted AI Responses
-
-
-Navigation & Settings
-
-
-Final Results & Export Options
-
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/ai-chatbot-suite.git
+cd ai-chatbot-suite
 
 ## 🚀 Quick Start
 
