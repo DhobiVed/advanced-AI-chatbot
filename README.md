@@ -28,73 +28,84 @@ A comprehensive Streamlit application featuring multiple AI-powered chatbots for
 ### Home Interface
 ![PDF Q&A Chatbot Screenshot](Screenshot%202025-07-20%20165018%20-%20Copy%20-%20Copy.png)
 
-![Home Page](Screenshot_2025-07-20_165126.png)
-*Main dashboard with chatbot selection*
+Features
+1. Main Dashboard
 
 
-### Search Chatbot Interface
-![Search Interface](Screenshot_2025-07-20_165411.png)
-*Search chatbot with model selection options*
+Select and navigate between different chatbot modules.
 
-![Search Query](Screenshot_2025-07-20_165505.png)
-*Example search query and AI response*
+2. Search Chatbot Interface
 
-![History Sidebar](Screenshot_2025-07-20_165612.png)
-*Conversation history panel*
+Search & Model Selection
 
-### PDF Chatbot Interface
-![PDF Upload](Screenshot_2025-07-20_165648.png)
-*PDF document upload interface*
 
-![Document Processing](Screenshot_2025-07-20_165843.png)
-*PDF text extraction in progress*
+Search queries with AI model selection.
 
-![Processed PDF](Screenshot_2025-07-20_170114.png)
-*Successfully processed PDF with statistics*
+Example Query & Response
 
-![Q&A Section](Screenshot_2025-07-20_170140.png)
-*Question answering interface for PDF content*
 
-![Answer Display](Screenshot_2025-07-20_170236.png)
-*Detailed answer with confidence score*
+AI-generated response for user queries.
 
-![Summary Generation](Screenshot_2025-07-20_170504.png)
-*Document summarization options*
+Conversation History
 
-![Generated Summary](Screenshot_2025-07-20_170525.png)
-*AI-generated document summary*
 
-### Advanced Features
-![Document Statistics](Screenshot_2025-07-20_170831.png)
-*Detailed document analytics and metrics*
+Track previous conversations for reference.
 
-![Search Results](Screenshot_2025-07-20_170857.png)
-*Semantic search results from PDF content*
+3. PDF Chatbot Interface
 
-![Context View](Screenshot_2025-07-20_170938.png)
-*Relevant context extraction from document*
+Upload PDF
 
-![Alternative Answers](Screenshot_2025-07-20_170957.png)
-*Multiple answer suggestions with scores*
 
-### UI Details
-![Model Settings](Screenshot_2025-07-20_171024.png)
-*Advanced model configuration options*
+Document Processing
 
-![Processing Status](Screenshot_2025-07-20_171116.png)
-*Real-time processing indicators*
 
-![Error Handling](Screenshot_2025-07-20_171147.png)
-*Error messages and recovery options*
+Processed PDF Overview
 
-![Response Formatting](Screenshot_2025-07-20_171223.png)
-*Beautifully formatted AI responses*
 
-![Navigation](Screenshot_2025-07-20_171404.png)
-*Sidebar navigation and settings*
+Question & Answer Interface
 
-![Final Results](Screenshot_2025-07-20_171432.png)
-*Completed analysis with export options*
+
+Answer Display with Confidence
+
+
+Document Summarization
+
+
+
+
+4. Advanced Features
+
+Document Analytics & Statistics
+
+
+Semantic Search Results
+
+
+Context Extraction
+
+
+Multiple Answer Suggestions
+
+
+5. UI & Settings
+
+Model Configuration Options
+
+
+Real-Time Processing Status
+
+
+Error Handling & Recovery
+
+
+Formatted AI Responses
+
+
+Navigation & Settings
+
+
+Final Results & Export Options
+
 
 ## 🚀 Quick Start
 
