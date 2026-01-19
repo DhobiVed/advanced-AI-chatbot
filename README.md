@@ -4,7 +4,10 @@
 
 ### Home Interface
 ![Home Page](Screenshot%202025-07-20%20165126.png)
-*Main dashboard with chatbot selection*
+*Main dashboard with chatbot selectin*
+
+![PDF Q&A Chatbot Screenshot](pdf_qa_chatbot_ui.png)
+
 
 ### Search Chatbot Interface  
 ![Search Interface](Screenshot%202025-07-20%20165411.png)
