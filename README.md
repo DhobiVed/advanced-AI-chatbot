@@ -6,8 +6,7 @@
 ![Home Page](Screenshot%202025-07-20%20165126.png)
 *Main dashboard with chatbot selectin*
 
-![PDF Q&A Chatbot Screenshot](pdf_qa_chatbot_ui.png)
-![PDF Q&A Chatbot](Screenshot%202025-07-20%20165126.png)
+![PDF Q&A Screenshot](Screenshot%202025-07-20%20165018%20-%20Copy%20-%20Copy.png)
 
 ### Search Chatbot Interface  
 ![Search Interface](Screenshot%202025-07-20%20165411.png)
